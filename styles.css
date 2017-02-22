@@ -1,0 +1,207 @@
+.header {
+    background: #3A3F44;
+    opacity: .7;
+    font-family: 'Montserrat', sans-serif;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    color: white;
+    display: none;
+}
+
+.text-regular {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.demo-container {
+    height: 200px;
+}
+
+.welcome {
+    background-image: url('welcome_background.jpg');
+    background-size: cover;
+}
+
+.welcome-text {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.61);
+    line-height: 30px;
+}
+
+
+}
+.welcome .logo {
+    height: 100px;
+}
+.welcome:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(15, 16, 19, 0.95);
+}
+.demo-welcome {
+    height: 500px;
+    padding-right: 10px;
+}
+.banner {
+    height: 200px;
+    background: white;
+    color: white;
+    text-align: center;
+}
+.banner::before {
+    position: absolute;
+    left: 0;
+    background-image: url('http://www.jaus.com.mx/images/logo-JAUS-pagina-web-inmobiliaria.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 1000px;
+    height: 200px;
+    content: "";
+    -webkit-filter: blur(3px) brightness(100%);
+    filter: blur(3px) brightness(100%);
+    opacity: .1;
+}
+.template-name {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px 5px;
+    display: inline;
+    margin-left: 10px;
+}
+.template-section-name {
+    color: black !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: inline;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+.template-description {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 12px;
+}
+.new-tag {
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #D91E18;
+    height: 50px;
+    padding: 10px 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.slide-down-button {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.22);
+}
+.welcome .slide-down-button {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.61);
+}
+.template-preview-button {
+    background-color: transparent;
+    color: white;
+}
+.template-preview-button:hover {
+    color: #333;
+    background-color: transparent;
+    border-color: #adadad;
+    color: #adadad;
+}
+.template-box {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.08);
+    height: auto;
+    border-radius: 5px;
+}
+.template-box--name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: white;
+}
+.template-box--preview {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.template-box--img {
+    width: 60%;
+    height: 300px;
+    object-fit: cover;
+}
+.pb50 {
+    padding-bottom: 50px;
+}
+.pt20 {
+    padding-top: 20px;
+}
+.monitor {
+    z-index: 10;
+}
+.phone {
+    margin-top: 40px !important;
+    margin-left: 80px !important;
+    width: 120px !important;
+    position: absolute !important;
+    right: 20% !important;
+    z-index: 20 !important;
+    top: 30% !important;
+}
+.phone .screen-content {
+    height: 150px !important;
+    width: 85px !important;
+}
+.phone .device-screen {
+    margin-left: -2px !important;
+    margin-bottom: -2px !important;
+}
+.transition {
+    transition: transform 0.3s, width 0.3s;
+    -moz-transition: -moz-transform 0.3s, width 0.3s;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s;
+}
+.hidden-left {
+    transition: transform 0.3s, width 0.3s;
+    -moz-transition: -moz-transform 0.3s, width 0.3s;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s;
+    left: 30%;
+}
+.hidden-right {
+    transition: transform 0.3s, width 0.3s;
+    -moz-transition: -moz-transform 0.3s, width 0.3s;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s;
+    right: 30%;
+}
+.hidden-center {
+    transition: transform 0.3s, width 0.3s;
+    -moz-transition: -moz-transform 0.3s, width 0.3s;
+    -webkit-transition: -webkit-transform 0.3s, width 0.3s;
+    right: 34% !important;
+}
+t;
+
+}
