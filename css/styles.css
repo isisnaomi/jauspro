@@ -21,7 +21,7 @@
 }
 
 .welcome {
-    background-image: url('welcome_background.jpg');
+    background-image: url('../img/welcome_background.jpg');
     background-size: cover;
 }
 

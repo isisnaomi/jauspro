@@ -5,16 +5,16 @@
 <title>Plantillas Dise&ntilde;o JAUSPRO</title>
 
 <!-- Full Page -->
-<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.fullPage.js"></script>
-<link rel="stylesheet" href="jquery-ui.min.css">
-<script src="jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<script src="js/jquery-ui.min.js"></script>
 <!--Including bootstrap and css files-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<link href="preview_styles.css" rel="stylesheet" type="text/css" />
-<link href="styles.css" rel="stylesheet" type="text/css" />
+<link href="css/preview_styles.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -30,7 +30,7 @@
 <body>
 <div class="">
   <!-- Header -->
-  <div class="header">
+  <div class="header visible-lg">
     <div class="col-sm-3 col-sm-offset-2">
     <a href="/index.php"><img src="http://www.jaus.com.mx/images/logo-JAUS-pagina-web-inmobiliaria.png" title="JAUS - TU INMOBILIARIA EN INTERNET" /></a>
     </div>
@@ -54,17 +54,9 @@
 					<h2 class="template-name ">Opciones de Plantillas</h2>
           <span class="pt20 text-regular welcome-text">
           Sitio Web profesional para inmobiliarias<br>
-          Sitio compatible con dispositivos m&oacute;viles<br>
+          Compatible con dispositivos m&oacute;viles<br>
           Plantillas totalmente configurables<br>
           Buscador avanzado de propiedades</span>
-
-          <!--<ul class="pt20 text-regular text-center">
-            <li>Plantillas configurables</li>
-            <li>Fácil uso para el visitante y potencial cliente</li>
-            <li>Optimizado para posicionamiento en buscadores</li>
-            <li>Ligas de interés</li>
-            <li>Preguntas frecuentes</li>
-          </ul>-->
           <div class="row">
             <div class="col-sm-4 col-sm-offset-4 text-center pt20">
               <a href="#aeolus" class="slide-down-button" role="button"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span></a>
@@ -72,15 +64,6 @@
           </div>
 
 				</div>
-        <!--<div class="demo-container">
-        <img class="demo-welcome"src="screen-welcome.png">
-        <img class="demo-welcome"
-        style="
-        position:absolute;
-        height: 400px;
-        right: 12%;
-        bottom: -60px;"
-        src="screen-welcome-2.png"></div>-->
 
 			</div>
 
@@ -100,7 +83,7 @@
 						<h2 class="template-name">aeolus v.1</h2> <div class="new-tag">Nueva</div>
 					</div>
           <div class="col-sm-1 col-sm-offset-2">
-  					<a class="btn btn-default template-preview-button" href="http://plantilla1.jaus.com.mx/" target="_blank" role="button">Ver sitio web</a>
+  					<a class="btn btn-default template-preview-button" href="http://plantilla1.jaus.com.mx/" target="_blank" role="button">Ver demo</a>
   				</div>
           <div class="col-sm-10 col-sm-offset-1">
             <div class="col-sm-4">
@@ -115,11 +98,12 @@
             </div>
           </div>
 
-					<?php include 'preview_plantilla1.php';?>
+					<?php include 'partials/preview_plantilla1.php';?>
+
 					<div class="col-sm-4 col-sm-offset-4 text-center">
 
 						<a class="btn btn-default template-preview-button" href="
-						#boreas" target="_blank" role="button">Ver más plantillas</a>
+						#boreas" role="button">Ver más plantillas</a>
 					</div>
 				</div>
 
@@ -142,7 +126,7 @@
 						<h2 class="template-name">aeolus v.2</h2> <div class="new-tag">Nueva</div>
 					</div>
           <div class="col-sm-1 col-sm-offset-2">
-  					<a class="btn btn-default template-preview-button" href="http://plantilla1v2.jaus.com.mx/" target="_blank" role="button">Ver sitio web</a>
+  					<a class="btn btn-default template-preview-button" href="http://plantilla1v2.jaus.com.mx/" target="_blank" role="button">Ver demo</a>
   				</div>
           <div class="col-sm-10 col-sm-offset-1">
             <div class="col-sm-4">
@@ -151,15 +135,16 @@
                   <li>Header Jumbo</li>
                   <li>Texto Personalizable</li>
                   <li>Footer Minimalista</li>
+                  <li>Plantilla Desarrollos Aether (Con costo adicional)</li>
                 </ul>
               </h4>
             </div>
           </div>
-					<?php include 'preview_plantilla1v2.php';?>
+					<?php include 'partials/preview_plantilla1v2.php';?>
 					<div class="col-sm-4 col-sm-offset-4 text-center">
 
 						<a class="btn btn-default template-preview-button" href="
-						#boreas" target="_blank" role="button">Ver más plantillas</a>
+						#boreas" role="button">Ver más plantillas</a>
 					</div>
 				</div>
 
@@ -183,7 +168,7 @@
 						<h2 class="template-name">aeolus v.3</h2> <div class="new-tag">Nueva</div>
 					</div>
           <div class="col-sm-1 col-sm-offset-2">
-  					<a class="btn btn-default template-preview-button" href="http://plantilla1v3.jaus.com.mx/" target="_blank" role="button">Ver sitio web</a>
+  					<a class="btn btn-default template-preview-button" href="http://plantilla1v3.jaus.com.mx/" target="_blank" role="button">Ver demo</a>
   				</div>
           <div class="col-sm-10 col-sm-offset-1">
             <div class="col-sm-4">
@@ -192,15 +177,16 @@
                   <li>Header Clear</li>
                   <li>Imagen Estatica</li>
                   <li>Footer Navegación</li>
+                  <li>Plantilla Desarrollos Aether (Con costo adicional)</li>
                 </ul>
               </h4>
             </div>
           </div>
-					<?php include 'preview_plantilla1v3.php';?>
+					<?php include 'partials/preview_plantilla1v3.php';?>
 					<div class="col-sm-4 col-sm-offset-4 text-center">
 
 						<a class="btn btn-default template-preview-button" href="
-						#boreas" target="_blank" role="button">Ver más plantillas</a>
+						#boreas" role="button">Ver más plantillas</a>
 					</div>
 				</div>
 
@@ -226,7 +212,7 @@
 					<h2 class="template-name">boreas</h2> <div class="new-tag">Nueva</div>
 				</div>
         <div class="col-sm-1 col-sm-offset-2">
-					<a class="btn btn-default template-preview-button" href="http://plantilla2.jaus.com.mx/" target="_blank" role="button">Ver sitio web</a>
+					<a class="btn btn-default template-preview-button" href="http://plantilla2.jaus.com.mx/" target="_blank" role="button">Ver demo</a>
 				</div>
         <div class="col-sm-10 col-sm-offset-1">
           <div class="col-sm-4">
@@ -235,14 +221,15 @@
                 <li>Header Simple</li>
                 <li>Buscador de Inmuebles</li>
                 <li>Footer 3 Columnas</li>
+                <li>Plantilla Desarrollos Aether (Con costo adicional)</li>
               </ul>
             </h4>
           </div>
         </div>
-				<?php include 'preview_plantilla2.php';?>
+				<?php include 'partials/preview_plantilla2.php';?>
 				<div class="col-sm-4 col-sm-offset-4 text-center">
 
-					<a class="btn btn-default template-preview-button" href="#cronus" target="_blank" role="button">Ver más plantillas</a>
+					<a class="btn btn-default template-preview-button" href="#cronus" role="button">Ver más plantillas</a>
 				</div>
 			</div>
       <div class="row">
@@ -264,7 +251,7 @@
 					<h2 class="template-name">cronus</h2> <div class="new-tag">Nueva</div>
 				</div>
         <div class="col-sm-1 col-sm-offset-2">
-					<a class="btn btn-default template-preview-button" href="http://plantilla3.jaus.com.mx/" target="_blank" role="button">Ver sitio web</a>
+					<a class="btn btn-default template-preview-button" href="http://plantilla3.jaus.com.mx/" target="_blank" role="button">Ver demo</a>
 				</div>
         <div class="col-sm-10 col-sm-offset-1">
           <div class="col-sm-4">
@@ -278,10 +265,10 @@
             </h4>
           </div>
         </div>
-				<?php include 'preview_plantilla3.php';?>
+				<?php include 'partials/preview_plantilla3.php';?>
 				<div class="col-sm-4 col-sm-offset-4 text-center">
 
-					<a class="btn btn-default template-preview-button" href="#plantilla_a" target="_blank" role="button">Ver más plantillas</a>
+					<a class="btn btn-default template-preview-button" href="#plantilla_a" role="button">Ver más plantillas</a>
 				</div>
 			</div>
 
@@ -308,10 +295,10 @@
 					<div class=" col-sm-4">
 						<div class="template-box">
 						<div class="template-box--name" style="background-color:#2980b9;">A</div>
-						<img class="template-box--img" src="patricioDiaz320x442.jpg"/>
+						<img class="template-box--img" src="img/patricioDiaz320x442.jpg"/>
 
 						<div class="template-box--preview">
-							<a class="btn btn-default template-preview-button" href="http://www.patriciodiaz.com.mx/" target="_blank" role="button">Ver sitio web</a>
+							<a class="btn btn-default template-preview-button" href="http://www.patriciodiaz.com.mx/" target="_blank" role="button">Ver demo</a>
 						</div>
 						</div>
 					</div>
@@ -319,10 +306,10 @@
 					<div class=" col-sm-4">
 						<div class="template-box">
 						<div class="template-box--name" style="background-color:#c0392b;">B</div>
-						<img class="template-box--img" src="B2tn.png"/>
+						<img class="template-box--img" src="img/B2tn.png"/>
 
 						<div class="template-box--preview">
-							<a class="btn btn-default template-preview-button" href="http://barreraybarrera.mx" target="_blank" role="button">Ver sitio web</a>
+							<a class="btn btn-default template-preview-button" href="http://barreraybarrera.mx" target="_blank" role="button">Ver demo</a>
 						</div>
 						</div>
 					</div>
@@ -331,10 +318,10 @@
 					<div class=" col-sm-4">
 						<div class="template-box">
 						<div class="template-box--name" style="background-color:#f39c12;">C</div>
-						<img class="template-box--img" src="C2tn.png"/>
+						<img class="template-box--img" src="img/C2tn.png"/>
 
 						<div class="template-box--preview">
-							<a class="btn btn-default template-preview-button" href="http://estrategiainmobiliaria.com/"  target="_blank" role="button">Ver sitio web</a>
+							<a class="btn btn-default template-preview-button" href="http://estrategiainmobiliaria.com/"  target="_blank" role="button">Ver demo</a>
 						</div>
 						</div>
 					</div>
@@ -358,52 +345,73 @@
 var $button = $('#uiSwitch button'),
 	$template = $('#template-selector'),
 		$body = $('body')
-
 $button.on('click', function(e){
 	$template.toggleClass('dark');
 	$body.toggleClass('dark-bg');
 });
 </script>
 <script>
+
 $(document).ready(function() {
+  var slideInterval;
+  var isAutoPlaySlide = true;
+
+
+  $('body').on('click', '.fp-controlArrow', function () {
+    isAutoPlaySlide = false;
+    clearInterval(slideInterval);
+  });
+
+
 	$('#fullpage').fullpage({
-			anchors: ['intro','aeolus', 'boreas', 'cronus', 'plantilla_a', 'plantilla_b','plantilla_c'],
+			anchors: ['intro','aeolus', 'boreas', 'cronus', 'plantilla_a'],
       scrollingSpeed: 1000,
         autoScrolling: true,
+        loopBottom: true,
+
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+          if(isAutoPlaySlide){
+              slideInterval = setInterval(function () {
+                  $.fn.fullpage.moveSlideRight();
+              }, 3000);
+          }
+        },
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
+            clearInterval(slideInterval);
+        },
 
 			afterLoad: function(anchorLink, index){
-
+          console.log(index);
 					var loadedSection = $(this);
 
-          setInterval(function () {
-                $.fn.fullpage.moveSlideRight();
-            }, 5000);
+          if(isAutoPlaySlide){
+              slideInterval = setInterval(function () {
+                  $.fn.fullpage.moveSlideRight();
+              }, 3000);
+          }
+
 
           if(index == 1){
                 $('.header').hide();
             }
-
 							loadedSection.find(".tablet").removeClass( "hidden-left", 1000 );
 							loadedSection.find(".laptop").removeClass( "hidden-right", 1000 );
               loadedSection.find(".phone" ).removeClass( "hidden-center", 1000);
               loadedSection.find(".tablet" ).addClass( "transition", 1000);
      					loadedSection.find(".laptop" ).addClass( "transition", 1000);
               loadedSection.find(".phone" ).addClass( "transition", 1000);
-
-
 			},
-
 			onLeave: function(index, nextIndex, direction){
 					 var leavingSection = $(this);
+
+           clearInterval(slideInterval);
 
            if(index == 1){
                  $('.header').show();
              }
-
 					leavingSection.find(".tablet" ).addClass( "hidden-left", 1000);
  					leavingSection.find(".laptop" ).addClass( "hidden-right", 1000);
           leavingSection.find(".phone" ).addClass( "hidden-center", 1000);
-
 			 }
 	});
 });</script>
